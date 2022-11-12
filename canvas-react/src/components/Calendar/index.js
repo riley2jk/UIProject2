@@ -1,5 +1,5 @@
 import "./index.scss";
 
-const Courses = () => "Hello";
+const Calendar = () => "Hello";
 
-export default Courses;
+export default Calendar;

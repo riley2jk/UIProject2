@@ -1,3 +1,4 @@
+import React from 'react';
 import './index.scss'
 import { Link, NavLink } from 'react-router-dom'
 import LogoUC from '../../assets/uclogo.png'

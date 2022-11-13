@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom";
+import { NavLink, Outlet } from "react-router-dom";
 import "./index.scss";
 
 const CompGraph = () => {
@@ -79,6 +79,7 @@ const CompGraph = () => {
                     Echo360
                 </NavLink>
             </div>
+            <Outlet />
         </>
     );
 };

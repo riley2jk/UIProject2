@@ -1,7 +1,7 @@
 import "./index.scss";
 
 const Dashboard = () => {
-  return <div>Hello</div>;
+  return <div className="title">Dashboard</div>;
 };
 
 export default Dashboard;

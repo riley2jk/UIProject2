@@ -1,5 +1,7 @@
 import "./index.scss";
 
-const Calendar = () => "Hello";
+const Calendar = () => {
+  return <div className="title">Calendar</div>;
+};
 
 export default Calendar;

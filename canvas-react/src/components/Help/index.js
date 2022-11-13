@@ -1,5 +1,7 @@
 import "./index.scss";
 
-const Help = () => "Hello";
+const Help = () => {
+  return <div className="title">Help</div>;
+};
 
 export default Help;

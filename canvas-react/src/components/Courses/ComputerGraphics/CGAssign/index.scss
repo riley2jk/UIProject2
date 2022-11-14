@@ -1,0 +1,45 @@
+.content-container {
+    margin-right: 415px;
+    margin-bottom: 35px;
+
+    .title-text {
+        font-size: 20px;
+    }
+
+    .header {
+        margin-left: 15px;
+    }
+
+    .header-container {
+        border: 1px solid #a0a0a0;
+    }
+
+    .ind-content {
+        display: flex;
+        border: 1px solid #a0a0a0;
+        margin-top: -1px;
+
+        .ind-det {
+            display: flex;
+            flex-direction: column;
+            margin-left: auto;
+            margin-right: 15px;
+
+            .id-text {
+                margin-top: 5px;
+                margin-left: auto;
+            }
+        }
+
+        .ind {
+            margin-left: 10px;
+        }
+
+        svg {
+            margin-top: 18px;
+            margin-left: 15px;
+            width: 20px;
+            height: 20px;
+        }
+    }
+}

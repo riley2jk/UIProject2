@@ -12,7 +12,7 @@ const CompGraph = () => {
                     className="nav"
                     to="/courses/computer_graphics/"
                 >
-                    Home
+                    Modules
                 </NavLink>
                 <NavLink
                     exact="true"
@@ -42,25 +42,17 @@ const CompGraph = () => {
                     exact="true"
                     activeclassname="active"
                     className="nav"
-                    to="syllabus"
-                >
-                    Syllabus
-                </NavLink>
-                <NavLink
-                    exact="true"
-                    activeclassname="active"
-                    className="nav"
-                    to="pages"
-                >
-                    Pages
-                </NavLink>
-                <NavLink
-                    exact="true"
-                    activeclassname="active"
-                    className="nav"
                     to="files"
                 >
                     Files
+                </NavLink>
+                <NavLink
+                    exact="true"
+                    activeclassname="active"
+                    className="nav"
+                    to="syllabus"
+                >
+                    Syllabus
                 </NavLink>
                 <NavLink
                     exact="true"

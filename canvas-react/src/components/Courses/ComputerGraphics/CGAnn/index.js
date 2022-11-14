@@ -27,21 +27,21 @@ const CGAnn = () => {
                 <div className="ind-content">
                     <FontAwesomeIcon icon={faBullhorn} color="#000000" />
                     <h2 className="ind title-text">
-                        Computer Graphics Week 1 Announcements
-                    </h2>
-                    <div className="ind-det">
-                        <span className="id-text">Posted On:</span>
-                        <span className="id-text">Aug 28, 2022, 1:31 pm</span>
-                    </div>
-                </div>
-                <div className="ind-content">
-                    <FontAwesomeIcon icon={faBullhorn} color="#000000" />
-                    <h2 className="ind title-text">
                         Computer Graphics Week 2 Announcements
                     </h2>
                     <div className="ind-det">
                         <span className="id-text">Posted On:</span>
                         <span className="id-text">Sep 5, 2022, 3:34 pm</span>
+                    </div>
+                </div>
+                <div className="ind-content">
+                    <FontAwesomeIcon icon={faBullhorn} color="#000000" />
+                    <h2 className="ind title-text">
+                        Computer Graphics Week 1 Announcements
+                    </h2>
+                    <div className="ind-det">
+                        <span className="id-text">Posted On:</span>
+                        <span className="id-text">Aug 28, 2022, 1:31 pm</span>
                     </div>
                 </div>
             </div>

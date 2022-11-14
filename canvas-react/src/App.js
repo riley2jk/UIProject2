@@ -14,6 +14,7 @@ import SenDes from "./components/Courses/SeniorDesign";
 import UserInt from "./components/Courses/UserInterface";
 import CGAssign from "./components/Courses/ComputerGraphics/CGAssign";
 import CGAssign2 from "./components/Courses/ComputerGraphics/CGAssign/CGAssign2";
+import CGAssign1 from "./components/Courses/ComputerGraphics/CGAssign/CGAssign1";
 import CGAnn from "./components/Courses/ComputerGraphics/CGAnn";
 import CGGrades from "./components/Courses/ComputerGraphics/CGGrades";
 import CGSyll from "./components/Courses/ComputerGraphics/CGSyll";
@@ -31,9 +32,15 @@ function App() {
                     <Route path="courses">
                         <Route index element={<Courses />} />
                         <Route path="computer_graphics" element={<CompGraph />}>
-                            <Route path="assignments" element={<CGAssign />}>
-                                <Route path="assignment_02" element={<CGAssign2 />} />
-                            </Route>
+                            <Route path="assignments" element={<CGAssign />} />
+                            <Route
+                                path="assignment_02"
+                                element={<CGAssign2 />}
+                            />
+                            <Route
+                                path="assignment_01"
+                                element={<CGAssign1 />}
+                            />
                             <Route index element={<CGMod />} />
                             <Route path="announcements" element={<CGAnn />} />
                             <Route path="grades" element={<CGGrades />} />

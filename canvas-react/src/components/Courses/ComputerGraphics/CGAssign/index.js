@@ -4,7 +4,7 @@ import {
     faPenToSquare,
     faMagnifyingGlass,
 } from "@fortawesome/free-solid-svg-icons";
-import { Outlet } from "react-router-dom";
+import { NavLink, Outlet } from "react-router-dom";
 
 const CGAssign = () => {
     return (
@@ -25,7 +25,10 @@ const CGAssign = () => {
                 <div className="header-container">
                     <h2 className="header title-text">Overdue Assignments</h2>
                 </div>
-                <div className="ind-content">
+                <NavLink
+                    className="ind-content"
+                    to="/courses/computer_graphics/assignment_01"
+                >
                     <FontAwesomeIcon icon={faPenToSquare} color="#000000" />
                     <h2 className="ind title-text">
                         Assignment 01 - First Assignment
@@ -34,22 +37,25 @@ const CGAssign = () => {
                         <span className="id-text">Due Aug 29 at 11:59 pm</span>
                         <span className="id-text">-/10 pts</span>
                     </div>
-                </div>
+                </NavLink>
             </div>
             <div className="content-container">
                 <div className="header-container">
                     <h2 className="header title-text">Upcoming Assignments</h2>
                 </div>
-                <div className="ind-content">
+                <NavLink
+                    className="ind-content"
+                    to="/courses/computer_graphics/assignment_02"
+                >
                     <FontAwesomeIcon icon={faPenToSquare} color="#000000" />
                     <h2 className="ind title-text">
                         Assignment 02 - Linear Algebra Review
                     </h2>
                     <div className="ind-det">
-                        <span className="id-text">Due Sep 9 at 11:59 pm</span>
+                        <span className="id-text">Due Aug 29 at 11:59 pm</span>
                         <span className="id-text">-/10 pts</span>
                     </div>
-                </div>
+                </NavLink>
             </div>
             <Outlet />
         </>

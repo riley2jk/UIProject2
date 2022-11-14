@@ -17,14 +17,14 @@ const CGAssign2 = () => {
 
     function handleUploadClick() {
         if (upFile === "") {
-            setUpFile("Assignment_02.pdf");
+            setUpFile("Assignment_01.pdf");
         }
     }
 
     return (
         <div className="flex-container">
             <div className="left-container">
-                <h2>Assignment 2 description</h2>
+                <h2>Assignment 1 description</h2>
                 <p>Submit:</p>
                 <ol>
                     <li>Your code</li>

@@ -4,6 +4,7 @@ import {
     faPenToSquare,
     faMagnifyingGlass,
 } from "@fortawesome/free-solid-svg-icons";
+import { Outlet } from "react-router-dom";
 
 const CGAssign = () => {
     return (
@@ -50,6 +51,7 @@ const CGAssign = () => {
                     </div>
                 </div>
             </div>
+            <Outlet />
         </>
     );
 };

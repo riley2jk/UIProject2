@@ -1,0 +1,23 @@
+.header-container {
+    display: flex;
+
+    .search-container {
+        border: 1px solid #a0a0a0;
+        border-radius: 4px;
+        display: flex;
+        margin: 21px 415px 21px auto;
+        line-height: 34px;
+
+        .search-text {
+            width: 300px;
+            padding-left: 15px;
+            border-right: 1px solid #a0a0a0;
+            color: #a0a0a0;
+        }
+
+        .search-enter {
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+    }
+}

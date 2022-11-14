@@ -10,7 +10,7 @@ const SenDes = () => {
                     exact="true"
                     activeclassname="active"
                     className="nav"
-                    to=""
+                    to="courses/senior_design/"
                 >
                     Home
                 </NavLink>

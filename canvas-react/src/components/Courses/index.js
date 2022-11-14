@@ -15,7 +15,7 @@ const Courses = () => {
             <div className="course-container">
                 <Link
                     className="course-button large-container cg"
-                    to="computer_graphics"
+                    to="computer_graphics/"
                 >
                     <div className="course-name bck-container cg">
                         <div className="course">Computer Graphics</div>

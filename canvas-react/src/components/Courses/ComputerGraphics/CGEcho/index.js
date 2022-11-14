@@ -1,7 +1,7 @@
 import "./index.scss";
 
 const CGEcho = () => {
-    return <div className="work">To stay as current canvas</div>;
+    return <h2>To stay as current canvas</h2>;
 };
 
 export default CGEcho;

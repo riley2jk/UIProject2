@@ -12,15 +12,14 @@ import Help from "./components/Help";
 import CompGraph from "./components/Courses/ComputerGraphics";
 import SenDes from "./components/Courses/SeniorDesign";
 import UserInt from "./components/Courses/UserInterface";
-import CGHome from "./components/Courses/ComputerGraphics/CGHome";
 import CGAssign from "./components/Courses/ComputerGraphics/CGAssign";
 import CGAnn from "./components/Courses/ComputerGraphics/CGAnn";
 import CGGrades from "./components/Courses/ComputerGraphics/CGGrades";
 import CGSyll from "./components/Courses/ComputerGraphics/CGSyll";
-import CGPages from "./components/Courses/ComputerGraphics/CGPages";
 import CGFiles from "./components/Courses/ComputerGraphics/CGFiles";
 import CGZoom from "./components/Courses/ComputerGraphics/CGZoom";
 import CGEcho from "./components/Courses/ComputerGraphics/CGEcho";
+import CGMod from "./components/Courses/ComputerGraphics/CGMod";
 
 function App() {
     return (
@@ -31,12 +30,11 @@ function App() {
                     <Route path="courses">
                         <Route index element={<Courses />} />
                         <Route path="computer_graphics" element={<CompGraph />}>
-                            <Route index element={<CGHome />} />
                             <Route path="assignments" element={<CGAssign />} />
+                            <Route index element={<CGMod />} />
                             <Route path="announcements" element={<CGAnn />} />
                             <Route path="grades" element={<CGGrades />} />
                             <Route path="syllabus" element={<CGSyll />} />
-                            <Route path="pages" element={<CGPages />} />
                             <Route path="files" element={<CGFiles />} />
                             <Route path="zoom" element={<CGZoom />} />
                             <Route path="echo360" element={<CGEcho />} />

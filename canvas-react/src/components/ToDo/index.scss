@@ -1,5 +1,5 @@
 .ToDo-Container {
-  width: 355px;
+  width: 315px;
   height: 100%;
   right: 0;
   position: absolute;
@@ -8,23 +8,20 @@
   text-align: center;
 }
 
-.App {
-  text-align: left;
-}
-
 .taskBg {
   background-color: #555;
   border-radius: 6px;
   margin-bottom: 20px;
   padding: 10px 140px 10px 15px;
   text-align: left;
-  font-size: 22px;
+  font-size: 14px;
   
 }
 
 .taskBg div {
   display: flex;
   align-items: center;
+  word-wrap: break-word;
 }
 
 .taskNumber {
@@ -43,6 +40,8 @@
 
 .taskBg .taskText {
   flex: 1;
+  color: white;
+  word-wrap: break-word;
 }
 
 .taskBg .done .taskText {
@@ -51,10 +50,10 @@
 }
 
 .taskBg .iconsWrap {
-  position: absolute;
+  position: relative;
   top: 50%;
   transform: translateY(-50%);
-  right: 15px;
+  right: -200px;
   width: auto;
   display: inline-block;
 }
@@ -72,4 +71,14 @@
 
 .mr-20 {
   margin-right: 20px;
+}
+
+.row .col {
+  padding-left: 30px;
+  padding-right: 5px;
+}
+
+.row .col-auto {
+  padding-right: 20px;
+  padding-top: 4px;
 }

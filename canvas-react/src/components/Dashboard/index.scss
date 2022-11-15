@@ -1,5 +1,21 @@
 .title {
-  margin-top: -60px;
-  font-size: xx-large;
-  margin-bottom: 35px;
+    margin-top: -60px;
+    font-size: xx-large;
+    margin-bottom: 35px;
+}
+
+.flex-container {
+    display: flex;
+
+    .dash-left-container {
+        width: 100%;
+    }
+
+    .dash-right-container {
+        margin-left: 35px;
+    }
+
+    .mw {
+        min-width: 375px;
+    }
 }

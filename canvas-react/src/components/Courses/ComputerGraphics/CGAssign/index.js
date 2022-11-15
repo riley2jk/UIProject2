@@ -4,6 +4,7 @@ import {
     faPenToSquare,
     faMagnifyingGlass,
 } from "@fortawesome/free-solid-svg-icons";
+import { Link, Outlet } from "react-router-dom";
 
 const CGAssign = () => {
     return (
@@ -20,11 +21,14 @@ const CGAssign = () => {
                     </div>
                 </div>
             </div>
-            <div className="content-container">
+            <div className="content-container mgn-415">
                 <div className="header-container">
                     <h2 className="header title-text">Overdue Assignments</h2>
                 </div>
-                <div className="ind-content">
+                <Link
+                    className="ind-content link"
+                    to="/courses/computer_graphics/assignment_01"
+                >
                     <FontAwesomeIcon icon={faPenToSquare} color="#000000" />
                     <h2 className="ind title-text">
                         Assignment 01 - First Assignment
@@ -33,13 +37,16 @@ const CGAssign = () => {
                         <span className="id-text">Due Aug 29 at 11:59 pm</span>
                         <span className="id-text">-/10 pts</span>
                     </div>
-                </div>
+                </Link>
             </div>
-            <div className="content-container">
+            <div className="content-container mgn-415">
                 <div className="header-container">
                     <h2 className="header title-text">Upcoming Assignments</h2>
                 </div>
-                <div className="ind-content">
+                <Link
+                    className="ind-content link"
+                    to="/courses/computer_graphics/assignment_02"
+                >
                     <FontAwesomeIcon icon={faPenToSquare} color="#000000" />
                     <h2 className="ind title-text">
                         Assignment 02 - Linear Algebra Review
@@ -48,8 +55,9 @@ const CGAssign = () => {
                         <span className="id-text">Due Sep 9 at 11:59 pm</span>
                         <span className="id-text">-/10 pts</span>
                     </div>
-                </div>
+                </Link>
             </div>
+            <Outlet />
         </>
     );
 };

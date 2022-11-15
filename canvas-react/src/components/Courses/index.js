@@ -14,14 +14,14 @@ const Courses = () => {
             <div className="title">Courses</div>
             <div className="course-container">
                 <Link
-                    className="course-button large-container cg"
+                    className="course-button large-container cg link"
                     to="computer_graphics/"
                 >
                     <div className="course-name bck-container cg">
                         <div className="course">Computer Graphics</div>
                     </div>
                     <Link
-                        className="sm-container cg"
+                        className="sm-container cg link"
                         to="computer_graphics/assignments"
                     >
                         <FontAwesomeIcon
@@ -32,7 +32,7 @@ const Courses = () => {
                         <div className="last-text">Assignment 02</div>
                     </Link>
                     <Link
-                        className="sm-container cg"
+                        className="sm-container cg link"
                         to="computer_graphics/grades"
                     >
                         <FontAwesomeIcon icon={faBookOpen} color="#000000" />
@@ -40,14 +40,14 @@ const Courses = () => {
                         <div className="last-text">82%</div>
                     </Link>
                     <Link
-                        className="sm-container cg"
+                        className="sm-container cg link"
                         to="computer_graphics/announcements"
                     >
                         <FontAwesomeIcon icon={faBullhorn} color="#000000" />
                         <div className="ann sm-title">Announcements</div>
                     </Link>
                     <Link
-                        className="sm-container cg last"
+                        className="sm-container cg last link"
                         to="computer_graphics/syllabus"
                     >
                         <FontAwesomeIcon icon={faList} color="#000000" />
@@ -55,14 +55,14 @@ const Courses = () => {
                     </Link>
                 </Link>
                 <Link
-                    className="course-button large-container sd"
+                    className="course-button large-container sd link"
                     to="senior_design"
                 >
                     <div className="course-name bck-container sd">
                         <div className="course">Senior Design</div>
                     </div>
                     <Link
-                        className="sm-container sd"
+                        className="sm-container sd link"
                         to="senior_design/assignments"
                     >
                         <FontAwesomeIcon
@@ -72,31 +72,34 @@ const Courses = () => {
                         <div className="upcoming sm-title">Upcoming:</div>
                         <div className="last-text">Assignment 04</div>
                     </Link>
-                    <Link className="sm-container sd" to="senior_design/grades">
+                    <Link
+                        className="sm-container sd link"
+                        to="senior_design/grades"
+                    >
                         <FontAwesomeIcon icon={faBookOpen} color="#000000" />
                         <div className="grade sm-title">Grade:</div>
                         <div className="last-text">100%</div>
                     </Link>
                     <Link
-                        className="sm-container sd"
+                        className="sm-container sd link"
                         to="senior_design/announcements"
                     >
                         <FontAwesomeIcon icon={faBullhorn} color="#000000" />
                         <div className="ann sm-title">Announcements</div>
                     </Link>
                     <Link
-                        className="sm-container sd last"
+                        className="sm-container sd last link"
                         to="senior_design/syllabus"
                     >
                         <FontAwesomeIcon icon={faList} color="#000000" />
                         <div className="syll sm-title">Syllabus</div>
                     </Link>
                 </Link>
-                <Link className="course-button large-container ui" to="ui">
+                <Link className="course-button large-container ui link" to="ui">
                     <div className="course-name bck-container ui">
                         <div className="course">User Interface Design</div>
                     </div>
-                    <Link className="sm-container ui" to="ui/assignments">
+                    <Link className="sm-container ui link" to="ui/assignments">
                         <FontAwesomeIcon
                             icon={faPencilSquare}
                             color="#000000"
@@ -104,16 +107,22 @@ const Courses = () => {
                         <div className="upcoming sm-title">Upcoming:</div>
                         <div className="last-text">Assignment 03</div>
                     </Link>
-                    <Link className="sm-container ui" to="ui/grades">
+                    <Link className="sm-container ui link" to="ui/grades">
                         <FontAwesomeIcon icon={faBookOpen} color="#000000" />
                         <div className="grade sm-title">Grade:</div>
                         <div className="last-text">86%</div>
                     </Link>
-                    <Link className="sm-container ui" to="ui/announcements">
+                    <Link
+                        className="sm-container ui link"
+                        to="ui/announcements"
+                    >
                         <FontAwesomeIcon icon={faBullhorn} color="#000000" />
                         <div className="ann sm-title">Announcements</div>
                     </Link>
-                    <Link className="sm-container ui last" to="ui/syllabus">
+                    <Link
+                        className="sm-container ui last link"
+                        to="ui/syllabus"
+                    >
                         <FontAwesomeIcon icon={faList} color="#000000" />
                         <div className="syll sm-title">Syllabus</div>
                     </Link>

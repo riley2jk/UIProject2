@@ -4,7 +4,7 @@ const Groups = () => {
     return (
         <>
             <div className="title">Groups</div>
-            <div className="content-container mgn-415">
+            <div className="content-container mgn-425">
                 <div className="header-container">
                     <h2 className="header title-text">Groups</h2>
                 </div>

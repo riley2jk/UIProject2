@@ -10,7 +10,7 @@ const CGFiles = () => {
     return (
         <>
             <div className="header-container">
-                <h1>Files</h1>
+                <h1 className="big-title">Files</h1>
                 <div className="search-container">
                     <span className="search-text">Search for Files</span>
                     <div className="search-enter">
@@ -21,7 +21,7 @@ const CGFiles = () => {
                     </div>
                 </div>
             </div>
-            <div className="content-container mgn-415">
+            <div className="content-container mgn-425">
                 <div className="ind-content">
                     <FontAwesomeIcon
                         icon={faPersonChalkboard}

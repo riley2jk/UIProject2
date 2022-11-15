@@ -9,7 +9,7 @@ const CGAnn = () => {
     return (
         <>
             <div className="header-container">
-                <h1>Announcements</h1>
+                <h1 className="big-title">Announcements</h1>
                 <div className="search-container">
                     <span className="search-text">Search for Files</span>
                     <div className="search-enter">
@@ -20,7 +20,7 @@ const CGAnn = () => {
                     </div>
                 </div>
             </div>
-            <div className="content-container mgn-415">
+            <div className="content-container mgn-425">
                 <div className="header-container">
                     <h2 className="header title-text">Announcements</h2>
                 </div>

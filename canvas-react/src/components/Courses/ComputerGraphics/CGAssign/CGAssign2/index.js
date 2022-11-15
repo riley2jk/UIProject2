@@ -24,14 +24,14 @@ const CGAssign2 = () => {
     return (
         <div className="flex-container">
             <div className="left-container">
-                <h2>Assignment 2 description</h2>
+                <h2 className="big-title">Assignment 2 description</h2>
                 <p>Submit:</p>
                 <ol>
                     <li>Your code</li>
                     <li>Video link to your application</li>
                 </ol>
             </div>
-            <div className="right-container mgn-415">
+            <div className="right-container mgn-425">
                 <div className="buttons-container">
                     <button
                         className="btn btn-upload"

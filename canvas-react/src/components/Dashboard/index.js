@@ -194,7 +194,7 @@ const Dashboard = () => {
                         </div>
                     </div>
                 </div>
-                <div className="dash-right-container mgn-415 mw">
+                <div className="dash-right-container mgn-425 mw">
                     <div className="content-container">
                         <div className="header-container">
                             <h2 className="header title-text">Grades</h2>

@@ -6,6 +6,7 @@ import {
     faPersonChalkboard,
     faMagnifyingGlass,
 } from "@fortawesome/free-solid-svg-icons";
+import { Link } from "react-router-dom";
 
 const CGMod = () => {
     return (
@@ -22,7 +23,7 @@ const CGMod = () => {
                     </div>
                 </div>
             </div>
-            <div className="content-container">
+            <div className="content-container mgn-415">
                 <div className="header-container">
                     <h2 className="header title-text">
                         Module 1 - Foundations
@@ -67,7 +68,10 @@ const CGMod = () => {
                         <span className="id-text">1/1 pts</span>
                     </div>
                 </div>
-                <div className="ind-content">
+                <Link
+                    className="ind-content link"
+                    to="/courses/computer_graphics/assignment_01"
+                >
                     <FontAwesomeIcon icon={faPenToSquare} color="#000000" />
                     <h2 className="ind title-text">
                         Assignment 01 - First Assignment
@@ -76,9 +80,9 @@ const CGMod = () => {
                         <span className="id-text">Due Aug 29 at 11:59 pm</span>
                         <span className="id-text">-/10 pts</span>
                     </div>
-                </div>
+                </Link>
             </div>
-            <div className="content-container">
+            <div className="content-container mgn-415">
                 <div className="header-container">
                     <h2 className="header title-text">
                         Module 2 - Linear Algebra
@@ -130,7 +134,10 @@ const CGMod = () => {
                         <span className="id-text">1/1 pts</span>
                     </div>
                 </div>
-                <div className="ind-content">
+                <Link
+                    className="ind-content link"
+                    to="/courses/computer_graphics/assignment_02"
+                >
                     <FontAwesomeIcon icon={faPenToSquare} color="#000000" />
                     <h2 className="ind title-text">
                         Assignment 02 - Linear Algebra Review
@@ -139,7 +146,7 @@ const CGMod = () => {
                         <span className="id-text">Due Sep 9 at 11:59 pm</span>
                         <span className="id-text">-/10 pts</span>
                     </div>
-                </div>
+                </Link>
             </div>
         </>
     );

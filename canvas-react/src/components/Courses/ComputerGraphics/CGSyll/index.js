@@ -2,7 +2,7 @@ import "./index.scss";
 
 const CGSyll = () => {
     return (
-        <>
+        <div className="mgn-415">
             <h2>Computer Graphics</h2>
             <p>Class times: Mon, Wed, Fri 4:30-5:20pm,</p>
 
@@ -83,7 +83,7 @@ const CGSyll = () => {
                 Fundamentals of Computer Graphics by Steve Marschner and Peter
                 Shirley.{" "}
             </p>
-        </>
+        </div>
     );
 };
 

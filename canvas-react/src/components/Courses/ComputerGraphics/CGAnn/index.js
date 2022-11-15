@@ -20,19 +20,9 @@ const CGAnn = () => {
                     </div>
                 </div>
             </div>
-            <div className="content-container">
+            <div className="content-container mgn-415">
                 <div className="header-container">
                     <h2 className="header title-text">Announcements</h2>
-                </div>
-                <div className="ind-content">
-                    <FontAwesomeIcon icon={faBullhorn} color="#000000" />
-                    <h2 className="ind title-text">
-                        Computer Graphics Week 1 Announcements
-                    </h2>
-                    <div className="ind-det">
-                        <span className="id-text">Posted On:</span>
-                        <span className="id-text">Aug 28, 2022, 1:31 pm</span>
-                    </div>
                 </div>
                 <div className="ind-content">
                     <FontAwesomeIcon icon={faBullhorn} color="#000000" />
@@ -42,6 +32,16 @@ const CGAnn = () => {
                     <div className="ind-det">
                         <span className="id-text">Posted On:</span>
                         <span className="id-text">Sep 5, 2022, 3:34 pm</span>
+                    </div>
+                </div>
+                <div className="ind-content">
+                    <FontAwesomeIcon icon={faBullhorn} color="#000000" />
+                    <h2 className="ind title-text">
+                        Computer Graphics Week 1 Announcements
+                    </h2>
+                    <div className="ind-det">
+                        <span className="id-text">Posted On:</span>
+                        <span className="id-text">Aug 28, 2022, 1:31 pm</span>
                     </div>
                 </div>
             </div>

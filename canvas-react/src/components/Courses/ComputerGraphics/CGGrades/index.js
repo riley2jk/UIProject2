@@ -5,6 +5,7 @@ import {
     faPersonChalkboard,
     faFileAlt,
 } from "@fortawesome/free-solid-svg-icons";
+import { Link } from "react-router-dom";
 
 const CGGrades = () => {
     return (
@@ -53,7 +54,10 @@ const CGGrades = () => {
                         <span className="id-text">1/1 pts</span>
                     </div>
                 </div>
-                <div className="ind-content">
+                <Link
+                    className="ind-content link"
+                    to="/courses/computer_graphics/assignment_01"
+                >
                     <FontAwesomeIcon icon={faPenToSquare} color="#000000" />
                     <h2 className="ind title-text">
                         Assignment 01 - First Assignment
@@ -62,7 +66,7 @@ const CGGrades = () => {
                         <span className="id-text">Due Aug 29 at 11:59 pm</span>
                         <span className="id-text">-/10 pts</span>
                     </div>
-                </div>
+                </Link>
                 <div className="ind-content">
                     <FontAwesomeIcon
                         icon={faPersonChalkboard}
@@ -109,7 +113,10 @@ const CGGrades = () => {
                         <span className="id-text">1/1 pts</span>
                     </div>
                 </div>
-                <div className="ind-content">
+                <Link
+                    className="ind-content link"
+                    to="/courses/computer_graphics/assignment_02"
+                >
                     <FontAwesomeIcon icon={faPenToSquare} color="#000000" />
                     <h2 className="ind title-text">
                         Assignment 02 - Linear Algebra Review
@@ -118,7 +125,7 @@ const CGGrades = () => {
                         <span className="id-text">Due Sep 9 at 11:59 pm</span>
                         <span className="id-text">-/10 pts</span>
                     </div>
-                </div>
+                </Link>
             </div>
         </>
     );

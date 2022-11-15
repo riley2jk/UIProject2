@@ -1,6 +1,7 @@
 import "./index.scss";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBullhorn, faPenToSquare } from "@fortawesome/free-solid-svg-icons";
+import { Link } from "react-router-dom";
 
 const Dashboard = () => {
     return (
@@ -102,7 +103,10 @@ const Dashboard = () => {
                                 Upcoming Assignments
                             </h2>
                         </div>
-                        <div className="ind-content">
+                        <Link
+                            className="ind-content link"
+                            to="courses/computer_graphics/assignment_01"
+                        >
                             <FontAwesomeIcon
                                 icon={faPenToSquare}
                                 color="#000000"
@@ -118,7 +122,7 @@ const Dashboard = () => {
                                     Due: Aug 29, 2022, 11:59 pm
                                 </span>
                             </div>
-                        </div>
+                        </Link>
                         <div className="ind-content">
                             <FontAwesomeIcon
                                 icon={faPenToSquare}
@@ -153,7 +157,10 @@ const Dashboard = () => {
                                 </span>
                             </div>
                         </div>
-                        <div className="ind-content">
+                        <Link
+                            className="ind-content link"
+                            to="courses/computer_graphics/assignment_02"
+                        >
                             <FontAwesomeIcon
                                 icon={faPenToSquare}
                                 color="#000000"
@@ -169,7 +176,7 @@ const Dashboard = () => {
                                     Due: Sep 9, 2022, 11:59 pm
                                 </span>
                             </div>
-                        </div>
+                        </Link>
                         <div className="ind-content">
                             <FontAwesomeIcon
                                 icon={faPenToSquare}
@@ -192,7 +199,10 @@ const Dashboard = () => {
                         <div className="header-container">
                             <h2 className="header title-text">Grades</h2>
                         </div>
-                        <div className="ind-content">
+                        <Link
+                            className="ind-content link"
+                            to="courses/computer_graphics/grades"
+                        >
                             <h2 className="ind title-text">
                                 Computer Graphics
                             </h2>
@@ -200,7 +210,7 @@ const Dashboard = () => {
                                 <span className="id-text">Overall Grade:</span>
                                 <span className="id-text">82%</span>
                             </div>
-                        </div>
+                        </Link>
                         <div className="ind-content">
                             <h2 className="ind title-text">Senior Design</h2>
                             <div className="ind-det">
@@ -219,9 +229,9 @@ const Dashboard = () => {
                         </div>
                     </div>
                     <div className="content-container">
-                        <div className="header-container">
+                        <Link className="header-container link" to="groups">
                             <h2 className="header title-text">Groups</h2>
-                        </div>
+                        </Link>
                         <div className="ind-content">
                             <h2 className="ind title-text">Duo Queue</h2>
                             <div className="ind-det">

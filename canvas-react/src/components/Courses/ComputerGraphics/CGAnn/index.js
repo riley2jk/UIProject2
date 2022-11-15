@@ -20,7 +20,7 @@ const CGAnn = () => {
                     </div>
                 </div>
             </div>
-            <div className="content-container">
+            <div className="content-container mgn-415">
                 <div className="header-container">
                     <h2 className="header title-text">Announcements</h2>
                 </div>

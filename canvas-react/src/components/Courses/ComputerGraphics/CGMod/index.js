@@ -22,7 +22,7 @@ const CGMod = () => {
                     </div>
                 </div>
             </div>
-            <div className="content-container">
+            <div className="content-container mgn-415">
                 <div className="header-container">
                     <h2 className="header title-text">
                         Module 1 - Foundations
@@ -78,7 +78,7 @@ const CGMod = () => {
                     </div>
                 </div>
             </div>
-            <div className="content-container">
+            <div className="content-container mgn-415">
                 <div className="header-container">
                     <h2 className="header title-text">
                         Module 2 - Linear Algebra

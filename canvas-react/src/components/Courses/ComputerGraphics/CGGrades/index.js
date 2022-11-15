@@ -10,7 +10,7 @@ const CGGrades = () => {
     return (
         <>
             <h1>Grades - 82%</h1>
-            <div className="content-container">
+            <div className="content-container mgn-415">
                 <div className="header-container">
                     <h2 className="header title-text">Individual Grades</h2>
                 </div>

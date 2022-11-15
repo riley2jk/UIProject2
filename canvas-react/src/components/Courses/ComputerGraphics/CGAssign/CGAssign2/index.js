@@ -31,7 +31,7 @@ const CGAssign2 = () => {
                     <li>Video link to your application</li>
                 </ol>
             </div>
-            <div className="right-container">
+            <div className="right-container mgn-415">
                 <div className="buttons-container">
                     <button
                         className="btn btn-upload"

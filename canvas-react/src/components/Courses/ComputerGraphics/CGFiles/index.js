@@ -21,7 +21,7 @@ const CGFiles = () => {
                     </div>
                 </div>
             </div>
-            <div className="content-container">
+            <div className="content-container mgn-415">
                 <div className="ind-content">
                     <FontAwesomeIcon
                         icon={faPersonChalkboard}

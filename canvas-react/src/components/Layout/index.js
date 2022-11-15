@@ -9,7 +9,7 @@ const Layout = () => {
         <div className="App">
             <SideNav />
             <div className="page">
-                <span className="page-bar" />
+                <span className="page-bar mgn-415" />
                 <Outlet />
             </div>
             <ToDo />

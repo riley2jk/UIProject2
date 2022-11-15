@@ -21,7 +21,7 @@ const CGAssign = () => {
                     </div>
                 </div>
             </div>
-            <div className="content-container">
+            <div className="content-container mgn-415">
                 <div className="header-container">
                     <h2 className="header title-text">Overdue Assignments</h2>
                 </div>
@@ -39,7 +39,7 @@ const CGAssign = () => {
                     </div>
                 </NavLink>
             </div>
-            <div className="content-container">
+            <div className="content-container mgn-415">
                 <div className="header-container">
                     <h2 className="header title-text">Upcoming Assignments</h2>
                 </div>
@@ -52,7 +52,7 @@ const CGAssign = () => {
                         Assignment 02 - Linear Algebra Review
                     </h2>
                     <div className="ind-det">
-                        <span className="id-text">Due Aug 29 at 11:59 pm</span>
+                        <span className="id-text">Due Sep 9 at 11:59 pm</span>
                         <span className="id-text">-/10 pts</span>
                     </div>
                 </NavLink>
